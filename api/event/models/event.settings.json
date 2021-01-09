@@ -14,11 +14,11 @@
     "title": {
       "type": "string"
     },
-    "start": {
-      "type": "datetime"
+    "start_date": {
+      "type": "date"
     },
-    "end": {
-      "type": "datetime"
+    "end_date": {
+      "type": "date"
     },
     "start_time": {
       "type": "time"
@@ -42,6 +42,10 @@
       ],
       "plugin": "upload",
       "required": false
+    },
+    "category": {
+      "model": "category",
+      "via": "events"
     }
   }
 }
