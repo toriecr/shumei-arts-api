@@ -4,13 +4,16 @@
   "version": "0.1.0",
   "description": "A Strapi application",
   "scripts": {
-    "develop": "strapi develop",
+    "develop": "TZ=UTC strapi develop",
     "start": "strapi start",
     "build": "strapi build --clean",
     "strapi": "strapi"
   },
   "devDependencies": {},
   "dependencies": {
+    "@ckeditor/ckeditor5-build-classic": "^24.0.0",
+    "@ckeditor/ckeditor5-react": "^3.0.0",
+    "ckeditor5-custom-build": "file:ckeditor5",
     "knex": "<0.20.0",
     "pg": "^8.5.1",
     "pg-connection-string": "^2.4.0",
