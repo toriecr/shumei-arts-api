@@ -2,7 +2,7 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import { CKEditor } from '@ckeditor/ckeditor5-react';
 // import ClassicEditor from '@ckeditor/ckeditor5-build-classic';
-import CustomEditor from 'ckeditor5-custom-build/build/ckeditor';
+import CustomEditor from 'ckeditor5-custom-build';
 import styled from 'styled-components';
 
 const Wrapper = styled.div`
