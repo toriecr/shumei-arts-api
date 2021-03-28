@@ -12,36 +12,45 @@
   },
   "attributes": {
     "title": {
-      "type": "string"
+      "type": "string",
+      "required": true,
+      "maxLength": 60
     },
     "start_date": {
-      "type": "date"
+      "type": "date",
+      "required": true
     },
     "end_date": {
-      "type": "date"
+      "type": "date",
+      "required": true
     },
     "start_time": {
-      "type": "time"
+      "type": "time",
+      "required": true
     },
     "end_time": {
-      "type": "time"
+      "type": "time",
+      "required": true
     },
     "description": {
-      "type": "richtext"
+      "type": "richtext",
+      "required": true
     },
     "summary": {
-      "type": "text"
+      "type": "text",
+      "required": true,
+      "maxLength": 200
     },
     "image": {
       "model": "file",
       "via": "related",
       "allowedTypes": [
-        "images",
         "files",
+        "images",
         "videos"
       ],
       "plugin": "upload",
-      "required": false
+      "required": true
     },
     "category": {
       "model": "category",
