@@ -25,6 +25,14 @@
       }
     },
     {
+      "method": "GET",
+      "path": "/events/:slug",
+      "handler": "event.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
       "method": "POST",
       "path": "/events",
       "handler": "event.create",
