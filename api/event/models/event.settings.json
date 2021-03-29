@@ -55,6 +55,9 @@
     "category": {
       "model": "category",
       "via": "events"
+    },
+    "slug": {
+      "type": "string"
     }
   }
 }
