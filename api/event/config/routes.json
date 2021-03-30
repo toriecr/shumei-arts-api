@@ -18,14 +18,6 @@
     },
     {
       "method": "GET",
-      "path": "/events/:id",
-      "handler": "event.findOne",
-      "config": {
-        "policies": []
-      }
-    },
-    {
-      "method": "GET",
       "path": "/events/:slug",
       "handler": "event.findOne",
       "config": {
