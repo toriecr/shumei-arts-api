@@ -22,7 +22,7 @@
     },
     "end_date": {
       "type": "date",
-      "required": true
+      "required": false
     },
     "start_time": {
       "type": "time",
@@ -30,7 +30,7 @@
     },
     "end_time": {
       "type": "time",
-      "required": true
+      "required": false
     },
     "description": {
       "type": "richtext",
