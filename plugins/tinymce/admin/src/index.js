@@ -4,7 +4,7 @@ import App from './containers/App';
 import Initializer from './containers/Initializer';
 import lifecycles from './lifecycles';
 import trads from './translations';
-// import WysiwygWithErrors from './components/WysiwygWithErrors'
+import WysiwygWithErrors from './components/WysiwygWithErrors'
 
 export default strapi => {
   const pluginDescription = pluginPkg.strapi.description || pluginPkg.description;
@@ -29,7 +29,7 @@ export default strapi => {
     trads,
   };
 
-  //strapi.registerField({ type: 'wysiwyg', Component: WysiwygWithErrors })
+  strapi.registerField({ type: 'wysiwyg', Component: WysiwygWithErrors })
 
   return strapi.registerPlugin(plugin);
 };
