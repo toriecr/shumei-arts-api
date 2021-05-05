@@ -4,7 +4,7 @@ import App from './containers/App';
 import Initializer from './containers/Initializer';
 import lifecycles from './lifecycles';
 import trads from './translations';
-import WysiwygWithErrors from './components/WysiwygWithErrors'
+// import WysiwygWithErrors from './components/WysiwygWithErrors'
 
 export default strapi => {
   const pluginDescription = pluginPkg.strapi.description || pluginPkg.description;
