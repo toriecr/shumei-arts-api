@@ -29,7 +29,7 @@ export default strapi => {
     trads,
   };
 
-  strapi.registerField({ type: 'wysiwyg', Component: WysiwygWithErrors })
+  //strapi.registerField({ type: 'wysiwyg', Component: WysiwygWithErrors })
 
   return strapi.registerPlugin(plugin);
 };
