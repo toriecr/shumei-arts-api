@@ -11,15 +11,11 @@
     "@tinymce/tinymce-react": "^3.12.2"
   },
   "author": {
-    "name": "A Strapi developer",
-    "email": "",
-    "url": ""
+    "name": "A Strapi developer"
   },
   "maintainers": [
     {
-      "name": "A Strapi developer",
-      "email": "",
-      "url": ""
+      "name": "A Strapi developer"
     }
   ],
   "engines": {
