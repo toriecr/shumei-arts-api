@@ -1,6 +1,6 @@
 import React, { Fragment, useState, useEffect, useMemo, forwardRef } from 'react'
 import ReactDatepicker from 'react-datepicker'
-import "react-datepicker/dist/react-datepicker.css";
+//import "react-datepicker/dist/react-datepicker.css";
 
 const DatePicker = ({ onChange, name, value }) => {
 
