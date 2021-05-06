@@ -9,13 +9,14 @@
     "build": "strapi build --clean",
     "strapi": "strapi"
   },
-  "devDependencies": {},
   "dependencies": {
     "@ckeditor/ckeditor5-build-classic": "^24.0.0",
     "@ckeditor/ckeditor5-react": "^3.0.0",
+    "@tinymce/tinymce-react": "^3.12.3",
     "knex": "<0.20.0",
     "pg": "^8.5.1",
     "pg-connection-string": "^2.4.0",
+    "react-datepicker": "^3.8.0",
     "slugify": "^1.5.0",
     "sqlite3": "^5.0.0",
     "strapi": "^3.4.1",
