@@ -4,7 +4,7 @@ import { isEmpty } from 'lodash';
 import { Button } from '@buffetjs/core';
 import { Label, InputDescription, InputErrors } from 'strapi-helper-plugin';
 import Editor from './Tinymce'
-import MediaLib from './MediaLib'
+import MediaLib from './MediaLib' 
 
 const WysiwygWithErrors = ({
   inputDescription,

@@ -14,7 +14,7 @@ const DatePicker = ({ onChange, name, value }) => {
       let month = parseInt(value.substring(5,7))
       let day = parseInt(value.substring(8))
       console.log(`string value: ${value}`)
-      return new Date(Date.UTC(year, month-1, day))
+      return new Date(Date.UTC(year, month-1, day+2))
     } 
     else if (typeof value === 'object') {
       console.log('OBJECT')
