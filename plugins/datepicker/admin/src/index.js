@@ -29,7 +29,7 @@ export default strapi => {
     trads,
   };
 
- //strapi.registerField({ type: 'date', Component: DatePicker})
+ strapi.registerField({ type: 'datetime', Component: DatePicker})
 
   return strapi.registerPlugin(plugin);
 };

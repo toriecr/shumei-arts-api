@@ -16,14 +16,6 @@
       "required": true,
       "maxLength": 60
     },
-    "start_date": {
-      "type": "date",
-      "required": true
-    },
-    "end_date": {
-      "type": "date",
-      "required": false
-    },
     "start_time": {
       "type": "time",
       "required": true
@@ -59,6 +51,14 @@
     "slug": {
       "type": "uid",
       "targetField": "title"
+    },
+    "start_date": {
+      "type": "datetime",
+      "required": true
+    },
+    "end_date": {
+      "type": "datetime",
+      "required": false
     }
   }
 }
