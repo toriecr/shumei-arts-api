@@ -18,7 +18,7 @@
     },
     "start_time": {
       "type": "time",
-      "required": true
+      "required": false
     },
     "end_time": {
       "type": "time",
